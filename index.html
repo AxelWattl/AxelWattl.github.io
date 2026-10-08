@@ -1,34 +1,33 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Axel Lojas — Electrical Engineering student at The City College of New York. Engineering projects, experience and resume.">
+  <meta name="theme-color" content="#0b1220">
   <title>Axel Lojas | Electrical Engineering</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f5f7fa;
-      text-align: center;
-      padding: 80px 20px;
-      color: #222;
-    }
-    a {
-      display: inline-block;
-      padding: 15px 30px;
-      background: #174ea6;
-      color: white;
-      text-decoration: none;
-      border-radius: 8px;
-    }
+    :root{color-scheme:dark;--bg:#0b1220;--panel:#131e2f;--text:#f1f5f9;--muted:#a6b4c7;--line:#293a52;--accent:#60a5fa}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.7 system-ui,-apple-system,Segoe UI,Arial,sans-serif}a{color:inherit;text-decoration:none}a:focus-visible{outline:2px solid var(--accent);outline-offset:4px} .wrap{width:min(1050px,calc(100% - 40px));margin:auto}header{border-bottom:1px solid var(--line)}.nav{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:18px 0}.brand{font-size:1.2rem;font-weight:800;letter-spacing:.05em}.brand span{color:var(--accent)}nav{display:flex;gap:22px;flex-wrap:wrap}nav a{font-size:.9rem;color:var(--muted)}nav a:hover,.contact a:hover{color:var(--accent)}.hero{padding:100px 0 75px}.eyebrow{font-size:.76rem;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);font-weight:750}h1{font-size:clamp(3rem,8vw,5.5rem);line-height:1.08;letter-spacing:-.055em;margin:14px 0}h2{font-size:clamp(1.7rem,4vw,2.3rem);letter-spacing:-.025em;line-height:1.25;margin:0 0 20px}.tagline{font-size:clamp(1.15rem,3vw,1.55rem);color:#cad5e4;margin:0 0 14px}.intro{max-width:680px;color:var(--muted);margin:0 0 30px}.actions{display:flex;gap:12px;flex-wrap:wrap}.button{display:inline-flex;justify-content:center;align-items:center;min-height:45px;padding:10px 20px;border:1px solid var(--line);border-radius:8px;font-weight:650;font-size:.94rem}.button.primary{background:#2563eb;border-color:#2563eb;color:#fff}.button:hover{filter:brightness(1.18)}section{padding:48px 0;border-top:1px solid var(--line)}.section-lead{color:var(--muted);max-width:720px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:24px}.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:24px}.card h3{font-size:1.1rem;line-height:1.35;margin:0 0 8px}.meta{color:var(--accent);font-size:.85rem;margin:0 0 10px}.card p{color:var(--muted);margin:0}.chips{display:flex;flex-wrap:wrap;gap:10px}.chip{border:1px solid var(--line);border-radius:100px;padding:6px 12px;color:#d4dfed;font-size:.9rem}.contact{display:flex;gap:18px;flex-wrap:wrap}.contact a{color:#bfdbfe;text-decoration:underline;text-underline-offset:4px}footer{border-top:1px solid var(--line);padding:25px 0;color:var(--muted);font-size:.85rem}@media(max-width:600px){.nav{align-items:flex-start;flex-direction:column}nav{gap:14px}.hero{padding:65px 0 55px}.grid{grid-template-columns:1fr}.card{padding:20px}}
   </style>
 </head>
 <body>
-  <h1>Axel Lojas</h1>
-  <h2>Electrical Engineering Student</h2>
-  <p>The City College of New York</p>
-  <p>Interested in power systems, controls,
-     and electrical design.</p>
-  <a href="CV_Oct_8_26.pdf">View My Resume</a>
+<header><div class="wrap nav"><a class="brand" href="#top" aria-label="Back to top">AL<span>.</span></a><nav aria-label="Main navigation"><a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#contact">Contact</a></nav></div></header>
+<main id="top">
+  <div class="wrap hero">
+    <div class="eyebrow">Electrical Engineering · The City College of New York</div>
+    <h1>Axel Lojas<span style="color:var(--accent)">.</span></h1>
+    <p class="tagline">Engineering, automation &amp; power systems.</p>
+    <p class="intro">Electrical Engineering student with hands-on experience in research instrumentation, control systems, and technical analysis. Interested in applying engineering principles to practical, real-world challenges.</p>
+    <div class="actions"><a class="button primary" href="resume.pdf" target="_blank" rel="noopener">View Resume ↗</a><a class="button" href="https://github.com/AxelWattl" target="_blank" rel="noopener">GitHub ↗</a><a class="button" href="#contact">Contact</a></div>
+  </div>
+  <section id="about"><div class="wrap"><div class="eyebrow">01 / About</div><h2>About me</h2><p class="section-lead">I'm an Electrical Engineering student at The City College of New York with interests in power systems, controls, and electrical design. My experience includes laboratory research, automation, measurement, and engineering software.</p></div></section>
+  <section id="experience"><div class="wrap"><div class="eyebrow">02 / Experience</div><h2>Research &amp; experience</h2><div class="grid"><article class="card"><p class="meta">Summer 2026 · Brookhaven National Laboratory</p><h3>Accelerator Test Facility Intern</h3><p>Worked on computer-vision-assisted laser alignment, RF IQ modulator characterization, and accelerator beam dynamics studies.</p></article><article class="card"><p class="meta">The City College of New York</p><h3>Mathematics Tutoring</h3><p>Supported students across college-level mathematics through individual tutoring and problem-solving instruction.</p></article></div></div></section>
+  <section id="projects"><div class="wrap"><div class="eyebrow">03 / Selected work</div><h2>Engineering projects</h2><div class="grid"><article class="card"><p class="meta">Automation · Python · OpenCV</p><h3>Automated Laser Alignment</h3><p>Developed a computer-vision and PI-control workflow for motorized mirror alignment, including a PyQt graphical interface.</p></article><article class="card"><p class="meta">RF Engineering · Measurement</p><h3>IQ Modulator Characterization</h3><p>Characterized amplitude and phase responses of an ADL5375 IQ modulator using controlled I/Q inputs and network-analyzer measurements.</p></article><article class="card"><p class="meta">Simulation · Accelerator Physics</p><h3>Beam Dynamics Studies</h3><p>Explored particle beam behavior through simulations of accelerator components and beam transport.</p></article><article class="card"><p class="meta">More to come</p><h3>Additional projects</h3><p>Additional engineering projects and documentation will be added here.</p></article></div></div></section>
+  <section id="skills"><div class="wrap"><div class="eyebrow">04 / Skills</div><h2>Technical toolkit</h2><div class="chips"><span class="chip">Python</span><span class="chip">C++</span><span class="chip">MATLAB</span><span class="chip">OpenCV</span><span class="chip">PyQt</span><span class="chip">Circuit Analysis</span><span class="chip">Control Systems</span><span class="chip">RF Measurements</span><span class="chip">Technical Documentation</span></div></div></section>
+  <section id="contact"><div class="wrap"><div class="eyebrow">05 / Connect</div><h2>Let's connect</h2><p class="section-lead">Interested in discussing engineering opportunities, research, or collaborative projects? Connect with me below.</p><div class="contact"><a href="https://github.com/AxelWattl" target="_blank" rel="noopener">GitHub ↗</a><a href="resume.pdf" target="_blank" rel="noopener">Resume PDF ↗</a><!-- Add your LinkedIn URL and email address here when ready. --></div></div></section>
+</main>
+<footer><div class="wrap">© <span id="year">2026</span> Axel Lojas · Built with GitHub Pages</div></footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
 </body>
 </html>
